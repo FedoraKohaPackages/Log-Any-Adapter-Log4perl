@@ -55,7 +55,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root,-)
-%doc Changes CONTRIBUTING.mkdn cpanfile dist.ini LICENSE META.json perlcritic.rc README
+%doc Changes CONTRIBUTING.mkdn
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
 
